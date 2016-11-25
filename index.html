@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Document</title>
+  <link rel="stylesheet" href="css/bootstrap.css">
+  <link rel="stylesheet" href="css/blueprint.css">
+  <style>
+    /** { background-color: rgba(255,0,0,.2); }
+        * * { background-color: rgba(0,255,0,.2); }
+        * * * { background-color: rgba(0,0,255,.2); }
+        * * * * { background-color: rgba(255,0,255,.2); }
+        * * * * * { background-color: rgba(0,255,255,.2); }
+        * * * * * * { background-color: rgba(255,255,0,.2); }*/
+  </style>
+</head>
+
+<body>
+  <div class="container">
+    <div class="col-md-3">
+
+      <h1>Document</h1>
+      <hr>
+
+      <form id="form" action="" method="post">
+
+        <fieldset>
+          <legend>Simple sample document</legend>
+
+          <p>
+            <label for="nome">Nome</label><br>
+            <input type="text" class="text" id="nome">
+          </p>
+
+          <p>
+            <label for="sobrenome">Sobrenome</label><br>
+            <input type="text" class="text" id="sobrenome">
+          </p>
+
+          <p>
+            <label for="idade">Idade</label><br>
+            <input type="text" class="text" id="idade">
+          </p>
+
+          <p>
+            <label for="cidade">Cidade</label><br>
+            <input type="text" class="text" id="cidade">
+          </p>
+
+          <p>
+            <label for="cor">Cor</label><br>
+            <input type="text" class="text" id="cor">
+          </p>
+
+          <p>
+            <label for="select-field">Select field</label>
+            <select id="select-field" name="oi">
+              <option value=""></option>
+              <option value="Ottawa">Ottawa</option>
+              <option value="Calgary">Calgary</option>
+              <option value="Moosejaw">Moosejaw</option>
+            </select>
+          </p>
+
+          <p><label>Checkboxes</label><br>
+            <input type="checkbox" id="checkbox1" value="um"> Check one<br>
+            <input type="checkbox" id="checkbox2" value="dois"> Check two<br>
+            <input type="checkbox" id="checkbox3" value="tres"> Check three<br>
+          </p>
+
+          <p><label>Radio buttons</label><br>
+            <input type="radio" name="le-radio" id="radio1" value="Radio one" checked> Radio one<br>
+            <input type="radio" name="le-radio" id="radio2" value="Radio two"> Radio two<br>
+            <input type="radio" name="le-radio" id="radio3" value="Radio three"> Radio three<br>
+          </p>
+
+          <p>
+            <input type="submit" value="Submit">
+            <input type="reset" value="Reset">
+          </p>
+        </fieldset>
+
+      </form>
+
+    </div>
+
+  </div>
+
+  <script src="home.js"></script>
+</body>
+
+</html>
